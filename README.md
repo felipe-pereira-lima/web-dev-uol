@@ -37,9 +37,22 @@ Place the css into ../css/
 eg <link href="../css/style.css" rel="stylesheet" type="text/css" />
 
 
-We have 6 people inside the group.  Each one pick a wireframe or html page to complete.
+We have 5 people inside the group.  Each one pick a wireframe or html page to complete from the following list (one unlucky person pick 2 I guess!) - 
+
+WireFrame Page 1 (HomePage)
+WireFrame Page 2
+WireFrame Page 3
+
+HTML Page 1 (HomePage)
+HTML Page 2
+HTML Page 3
 
 
+Lawrence Sheed (小杜) - WireFrame Page 1 (HomePage)
+Felipe Pereira Lima - 
+Ellen B Morrison - 
+Joep - 
+Jun - 
 
-Lawrence Sheed - Wireframe for Homepage.
+
 
