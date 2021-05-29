@@ -1,0 +1,52 @@
+
+/* Lawrence Sheed Wireframe CSS */
+.section {
+  text-align: center;
+}
+
+
+nav ul {
+  list-style: none;
+  font-size: 10;
+}
+
+nav li {
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+nav a {
+}
+
+.slider {
+    background-image: url('../images/placeholder.png');
+    background-size: cover;
+    color: #0;
+}
+
+.slider_overlay {
+    margin-top: 350px;
+}
+
+
+/* Config our conditional css for phone device */
+@media (min-width: 550px) {
+  .hero {
+  }
+  .section {
+    margin-top: 5px;
+    background-color: #fff;
+  }
+}
+
+/* Config our conditional css for wide screen */
+@media (min-width: 1000px) { 
+    .hero {
+    }
+    .section {
+    }
+}
+
+.button { /* Round button edges */
+  border-radius: 100px;  
+}
