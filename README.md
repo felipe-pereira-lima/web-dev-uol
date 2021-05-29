@@ -39,7 +39,7 @@ eg link href="../css/style.css" rel="stylesheet" type="text/css" /
 
 We have 5 people inside the group.  Each one pick a wireframe or html page to complete from the following list (one unlucky person pick 2 I guess!) - 
 
-- [x] WireFrame Page 1 (HomePage)
+- [x] WireFrame Page 1 (HomePage) Lawrence Sheed
 - [ ] WireFrame Page 2
 - [ ] WireFrame Page 3
 
@@ -48,11 +48,6 @@ We have 5 people inside the group.  Each one pick a wireframe or html page to co
 - [ ] HTML Page 3
 
 
-Lawrence Sheed (小杜) @csloz - WireFrame Page 1 (HomePage)
-Felipe Pereira Lima - 
-Ellen B Morrison - 
-Joep - 
-Jun - 
 
 
 
