@@ -4,11 +4,162 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Theme Park PAGE 3</title>
+    <meta name='author' content='Joep van Dormolen'>
+    <meta name='robots' content='none'>
+    <title>Theme Park PAGE 3: Park Information</title>
     <link href="../css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <h1>Theme Park Page 3</h1>
     <script src="../js/script.js"></script>
+
+    <!-- Ternary Page Layout -->
+
+    <!-- Header Navigation-->
+    <!-- Note: Header Nav is full width -->
+    <nav class="header_navigation"> <!-- aria-labelledby="header_navigation"> -->
+        <div class="section hero">
+            <!-- Grid is 12 columns max -->
+            <div class="row">
+                <div class="offset-by-one five columns"> <!-- (5+1 offset) cols (6) -->
+                    <img src="../images/wireframe_logo.png" alt="Theme Park Site Logo" class="u-max-full-width u-pull-left" height="50px;">
+                </div>
+                <div class="three columns">  <!-- 3 cols (6+3)-->
+                    <select name="Language" id="Language" class="u-full-width"> 
+                        <option value="English">English</option>
+                        <option value="Simplified Chinese">简体</option>
+                        <option value='Dutch'>Nederlands</option>
+                    </select>
+                </div>
+                <div class="offset-by-one two columns">  <!-- 3 cols  (2+1 offset) (6+3+3)-->
+                    <input type="search" placeholder="Search.." class="u-full-width">
+                </div>
+            </div>
+            <div class="row" style="border-top: 1px solid dimgray;">
+                <div class="offset-by-two eight columns"> <!-- 2 + 8 + 2  (i.e. centered 8 cols) -->
+                    <ul>
+                        <li><a href="#">Tickets</a></li>
+                        <li><a href="#">Location</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Park Map -->
+    <!-- Note: Park Map is full width-->
+    <div class="container"> <!-- 100% width, double border at top -->
+        <div class="section hero map" style="border-top: double; background-color: #eee">
+            <div class="slider_overlay">
+                <!-- Image of the map of the park-->
+                <img src='../images/map_theme_park.png' alt='A Map Of The Park' width='100%'> 
+             </div>
+        </div>
+    </div>
+
+    <!-- General Park Info extends the full width of the page -->
+    <div class="container" style="margin-top:20px; margin-bottom:20px;">
+        <h5>Park Schedule</h5>
+        <!-- Each block is only half the width of the page-->
+        <div class="one-half column">
+                <p>Opening Times</p>
+                <br>
+                <p>Monday: 10:00 - 22:00 <br>
+                    Tuesday: 10:00 - 22:00 <br>
+                    Wednesday: 10:00 - 22:00 <br>
+                    Thursday: 10:00 - 22:00 <br>
+                    Friday: 10:00 - 22:00 <br>
+                    Saturday: 10:00 - 22:00 <br>
+                    Sunday: 10:00 - 22:00
+                </p>
+        </div>
+        <div class="one-half column">
+            <p>Parade Times</p>
+            <br>
+            <p>Every day at:
+                10:00 - 10:30<br>
+                12:00 - 12:30<br>
+                14:00 - 14: 30<br>
+                16:00 - 16:30 <br>
+                18:00 - 18:30 <br>
+                20:00 - 20:30 <br>
+            </p>
+        </div>
+        <div class="one-half column">
+            <p>Special Events</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+             et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+             ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+             fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+        <div class="one-half column">
+            <p>Schedule</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+    </div>
+
+    <!-- Downloadable/Viewable Park Map extends the full width of the page -->
+    <!-- Currently nothing happens when you click the button-->
+    <div class="container"> <!-- 100% width, double border at top -->
+        <div class="download_map_button style="border-top: double; background-color: #eee; height:500px;">
+            <button type="button" class="u-full-width">Download Park Map</button>
+        </div>
+    </div>
+
+    <!-- Element that holds directions to the park and a document with safety compliance -->
+    <div class='container'>
+        <div class='one-third column'>
+            <img src='../images/covid-19_safety_measures.png' alt='Picture of COVID-19 safety measures' height='235px' width='313px'>
+            <br>
+            <span>Corona virus safety measures</span>
+            <p>Read up on the measures we have taken to make your visit as safe and enjoyable as possible.</p>
+            <button type='button'>View the safety measures</button>
+        </div>
+        
+        <div class='one-third column'>
+            <img src='../images/theme_park.png' alt='Picture of the park' height='235px' width='313px'>
+            <br>
+            <span>Directions to the park</span>
+            <p>Coming from the train station? By car? Or plane? We have got you covered. Below you will find the directions to our park.</p>
+            <button type='button'>Download the route guide to the park</button>
+        </div>
+        <div class='one-third column'>
+                <img src='../images/ticket_booking.png' alt='Picture of the bungalow park' height='235px' width='313px'>
+                <br>
+                <span>Book your ticket now and stay overnight</span>
+                <p>Come for an enchanting stay in ome of our family friendly accomodations and get even more out of your visit.</p>
+                <button type='button'>View availability</button>
+            
+        </div>
+
+    </div>
+
+    
+    <!-- Load our footer navigation -->
+    <!-- Note: Footer Nav is not full width -->
+    <footer>
+        <nav class="footer_navigation"> <!-- aria-labelledby="footer_navigation">  -->
+            <div class="container section">
+                <div class="row">
+                    <div class="two-half column" style="border-bottom: 1px solid dimgray;">
+                        <a href="#">Park Rules & Regulations</a> 
+                        <a href="#">Safety Compliance</a> 
+                        <a href="#"><img src="../images/wireframe_logo.png" alt="Theme Park Site Logo" height="40px;"></a>
+                        <a href="#">Park Directions</a>
+                        <a href="#">Buy a Ticket</a>
+                        <p>&copy; <script>document.write(new Date(). getFullYear())</script> Park Licence</p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </footer>
 </body>
 </html>
