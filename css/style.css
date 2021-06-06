@@ -8579,6 +8579,10 @@ tbody td:active {
     font-weight: 500;
     font-size: 13px;
   }
+
+  .nav-link.active, .nav-link {
+    color: #007bff!important
+  }
   
   
   /* Footer */
