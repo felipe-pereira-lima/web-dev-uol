@@ -8379,7 +8379,8 @@ tbody td:active {
 }
 
 .text3{
-  padding:20px 100px 70px
+  width: 100%;
+  padding:20px 20px 70px;
 }
 
 .text3 p{
@@ -8431,7 +8432,7 @@ p.tickets {
 }
 
 .flexcontainer {
-	padding: 0% 20%;
+	/* padding: 0% 20%; */
 	min-height: 300px;
 	max-height: 450px;
 	display: flex;
@@ -8449,6 +8450,13 @@ p.tickets {
 }
 
 /* Second Page - Calendar */
+
+.tickets-text {
+  padding-top: 60px;
+}
+.calendar {
+  margin-top: 200px;
+}
 
 
 /* Footer */
