@@ -24,31 +24,5 @@ Criteria 4: Accessibility, particularly in the use of the media tags.
     •Little evidence of consideration of accessibility, for example using media files names in the alt attribute of the img  tag(0.5 pts)
     •Helpful consideration of accessibility, for example describing the content of media files in the alt attribute of the  img tag(1 pt)
 
------------------------
-
-Place the Wireframe Pages inside WireFrame Folder. First page must be named index.html
-Place the HTML Site content inside the HTML. First page must be named index.html
-I have named secondary pages page_2,page_3 inside the folder.
-
-Place the images into ../images/
-Place the js into ../js/
-Place the css into ../css/
-
-eg link href="../css/style.css" rel="stylesheet" type="text/css" /
-
-
-We have 5 people inside the group.  Each one pick a wireframe or html page to complete from the following list (one unlucky person pick 2 I guess!) - 
-
-- [x] WireFrame Page 1 (HomePage) Lawrence Sheed
-- [ ] WireFrame Page 2
-- [ ] WireFrame Page 3
-
-- [ ] HTML Page 1 (HomePage)
-- [ ] HTML Page 2
-- [ ] HTML Page 3
-
-
-
-
 
 
